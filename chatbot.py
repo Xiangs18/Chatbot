@@ -1,5 +1,3 @@
-# Meet Robo: your friend
-
 # import necessary libraries
 import io
 import random
@@ -15,11 +13,11 @@ warnings.filterwarnings("ignore")
 import nltk
 from nltk.stem import WordNetLemmatizer
 
-nltk.download("popular", quiet=True)  # for downloading packages
+nltk.download("popular", quiet=False)  # for downloading packages
 
 # uncomment the following only the first time
-# nltk.download('punkt') # first-time use only
-# nltk.download('wordnet') # first-time use only
+# nltk.download("punkt")  # first-time use only
+# nltk.download("wordnet")  # first-time use only
 
 
 # Reading in the corpus
