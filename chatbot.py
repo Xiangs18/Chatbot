@@ -13,7 +13,7 @@ warnings.filterwarnings("ignore")
 import nltk
 from nltk.stem import WordNetLemmatizer
 
-nltk.download("popular", quiet=False)  # for downloading packages
+# nltk.download("popular", quiet=False)  # for downloading packages
 
 # uncomment the following only the first time
 # nltk.download("punkt")  # first-time use only
